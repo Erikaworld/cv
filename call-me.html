@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>call-me</title>
+  </head>
+  <body>
+    <p>email:ericalu@134.com</p>
+    <p>phone:212-4566856</p>
+<hr>
+    <form  action="mailto:lancerlwt@163.com" method="post" enctype="text/plain"><!--  表单，操作action：单击提交时会发生的事。post会将form的内容粘贴到表单中。enctype是文本展现方式，这里是纯文本编码  -->
+      <label>Your name:</label><!--  输入 类型：提交  -->
+      <input type="text" name="yourName" value=""><br><!--  输入 文本类型.name会在提交后表单显示yourName=温迪（输入的内容）  -->
+      <label>Your email:</label><!--  标签 网页文本 -->
+      <input type="email" name="yourEmail" value=""><br><!--  输入 邮件类型  -->
+      <label for="">Your message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br><!--  文本区域 行数 列数  -->
+      <input type="submit" name=""><!--  输入 类型：提交  -->
+    </form><!--  没有装邮件启动程序，提交后不能看到表单。  -->
+  </body>
+</html>
